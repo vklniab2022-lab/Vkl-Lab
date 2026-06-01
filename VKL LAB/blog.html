@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Publications - VKL Lab</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Organoid, Biomaterials, NIAB, Vinod Kumar" name="keywords">
+    <meta content="Organoid & Materials Interface Laboratory (VKL Lab) at NIAB, Hyderabad" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Lab Logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .filter-btn {
+            border-radius: 5px;
+            margin-right: 5px;
+            font-weight: 500;
+        }
+        .filter-btn.active {
+            background-color: #1D2A4D;
+            color: #fff;
+            border-color: #1D2A4D;
+        }
+        .filter-btn:not(.active) {
+            color: #1D2A4D;
+            border-color: #1D2A4D;
+        }
+        .filter-btn:not(.active):hover {
+            background-color: #1D2A4D;
+            color: #fff;
+        }
+        .search-bar {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            padding: 10px 15px;
+            width: 100%;
+        }
+        .pub-card {
+            border-left: 5px solid #13C5DD !important;
+            transition: transform 0.2s;
+        }
+        .pub-card:hover {
+            transform: translateX(5px);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href="tel:+914023120154"><i class="bi bi-telephone me-2"></i>+91 40 2312 0154</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href="mailto:vinod@niab.org.in"><i class="bi bi-envelope me-2"></i>vinod[at]niab[dot]org[dot]in</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="mailto:vinod@niab.org.in" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a class="text-body px-2" href="https://in.linkedin.com/in/vinod-kumar-3565b623" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-body px-2" href="https://www.niab.res.in/peoplevinod/" target="_blank" title="NIAB Profile"><i class="fas fa-university"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand py-1">
+                    <img src="img/Lab Logo.png" alt="VKL Lab Logo" style="max-height: 85px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">HOME</a>
+                        <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                        <a href="service.html" class="nav-item nav-link">RESEARCH</a>
+                        <a href="blog.html" class="nav-item nav-link active">PUBLICATIONS</a>
+                        <a href="grants.html" class="nav-item nav-link">GRANTS</a>
+                        <a href="team.html" class="nav-item nav-link">GROUP</a>
+                        <a href="gallery.html" class="nav-item nav-link">GALLERY</a>
+                        <a href="contact.html" class="nav-item nav-link">CONTACTS</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Publications</h5>
+                <h1 class="display-4">Peer-Reviewed Research</h1>
+                <p>A comprehensive list of our peer-reviewed research articles and publications.</p>
+            </div>
+
+            <!-- Search and Filter Bar -->
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="position-relative">
+                        <i class="fa fa-search position-absolute text-muted" style="top: 15px; left: 15px;"></i>
+                        <input type="text" id="pubSearch" class="search-bar ps-5" placeholder="Search by topic, author, journal...">
+                    </div>
+                </div>
+                <div class="col-lg-8 text-lg-end">
+                    <div class="d-flex flex-wrap justify-content-lg-end gap-2">
+                        <button class="btn btn-primary active filter-btn mb-2" data-filter="all">All</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2026">2026</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2025">2025</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2024">2024</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2023">2023</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2022">2022</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2021">2021</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="2020">2020</button>
+<button class="btn btn-outline-primary filter-btn mb-2" data-filter="before-2020">Before 2020</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4" id="publicationsList">
+
+                <div class="col-12 pub-item" data-year="2026" data-text="next generation in vitro pulmonary platforms for respiratory disease modelling and therapeutic development: current advances and future prospects khan, f., kumar, v., verma, v. medicina, (just accepted), 2026">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#46</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 2.8</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Next generation in vitro pulmonary platforms for Respiratory Disease Modelling and Therapeutic Development: Current Advances and future prospects</h5>
+                            <p class="mb-2 text-dark"><strong>Khan, F., Kumar, V., Verma, V.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Medicina, (Just accepted), 2026</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2026" data-text="mxene-reinforced 3d-printed biomatrices: synthesis, characterization, and intelligent theragenerative applications kumar, v., kumar, r., patel, d., rawat, s.k., bosetti, p., bhatnagar, d., shukla, s.k., sharma, g.t. acs appl. mater. interfaces, 2026 (accepted)">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#45</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 8.2</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">MXene-Reinforced 3D-Printed Biomatrices: Synthesis, Characterization, and Intelligent Theragenerative Applications</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Kumar, R., Patel, D., Rawat, S.K., Bosetti, P., Bhatnagar, D., Shukla, S.K., Sharma, G.T.</strong></p>
+                            <p class="m-0 text-muted fst-italic">ACS Appl. Mater. Interfaces, 2026 (Accepted)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2026" data-text="sr-doped mesoporous silica nanoparticles with enhanced biological functions and 3d printing applications tripathi, b. b., yadav, r., aeri, a., kumar, v., sharma, g.t. journal of drug delivery science and technology, 116, 107932, 2026">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#44</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.9</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Sr-doped mesoporous silica nanoparticles with enhanced biological functions and 3D printing applications</h5>
+                            <p class="mb-2 text-dark"><strong>Tripathi, B. B., Yadav, R., Aeri, A., Kumar, V., Sharma, G.T.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Drug Delivery Science and Technology, 116, 107932, 2026</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2026" data-text="two-dimensional nano-fabricated g-c3n4@rgo based immunosensor for sensitive and label free detection of cancer biomarker srivastava, s., kumar, a., shukla, n., bosetti, p., kumar, v., singh, v., mishra, d.p., chandel, v. s., srivastava, s. microchemical journal, 220, 116318, 2026">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#43</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Two-dimensional nano-fabricated g-C3N4@RGO based immunosensor for sensitive and label free detection of cancer biomarker</h5>
+                            <p class="mb-2 text-dark"><strong>Srivastava, S., Kumar, A., Shukla, N., Bosetti, P., Kumar, V., Singh, V., Mishra, D.P., Chandel, V. S., Srivastava, S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Microchemical Journal, 220, 116318, 2026</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2025" data-text="zno-rgo nanocomposite based electrochemical sensing platform for highly sensitive and selective detection of cd2+ ions kumar, a., srivastava, s., bosetti, p., kumar, v., tiwari, d. k., mishra, d.p., chandel, v. s., srivastava, s. diamond and related materials, 159, 112873, 2025">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#42</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">ZnO-RGO nanocomposite based electrochemical sensing platform for highly sensitive and selective detection of Cd2+ ions</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, A., Srivastava, S., Bosetti, P., Kumar, V., Tiwari, D. K., Mishra, D.P., Chandel, V. S., Srivastava, S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Diamond and Related Materials, 159, 112873, 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2024" data-text="derivation and characterization of novel cytocompatible decellularized tissue scaffold for myoblast growth and differentiation singh, a., singh, s.k., kumar, v., gupta, j., kumar, m., sarma, d.k., singh, s., kumawat, m., verma, v. cells, 13, 41, 2024">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#41</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Derivation and characterization of novel cytocompatible decellularized tissue scaffold for myoblast growth and differentiation</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, A., Singh, S.K., Kumar, V., Gupta, J., Kumar, M., Sarma, D.K., Singh, S., Kumawat, M., Verma, V.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Cells, 13, 41, 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2023" data-text="graphene-based materials for biotechnological and biomedical applications: drug delivery, bioimaging and biosensing kumar, r., singh, d. p., muñoz, r., amami, m., singh, r. k., singh, s., kumar, v. materials today chemistry, 33, 101750, 2023">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#40</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 6.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Graphene-based materials for biotechnological and biomedical applications: Drug delivery, bioimaging and biosensing</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, R., Singh, D. P., Muñoz, R., Amami, M., Singh, R. K., Singh, S., Kumar, V.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Materials Today Chemistry, 33, 101750, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2022" data-text="recent advances in bioengineered scaffold for in vitro meat production singh, a., kumar, v., et al. cell & tissue research, 2022">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#39</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.05</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Recent advances in bioengineered scaffold for in vitro meat production</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, A., Kumar, V., et al.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Cell & Tissue Research, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2022" data-text="ti2c-tio2 mxene nanocomposite based high efficient non-enzymatic glucose sensing platform for diabetes monitoring kumar, v., shukla, s.k., choudhury, m. et al. sensors, 22(15), 5589, 2022">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#38</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 3.84</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Ti2C-TiO2 MXene nanocomposite based high efficient non-enzymatic glucose sensing platform for diabetes monitoring</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Shukla, S.K., Choudhury, M. et al.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Sensors, 22(15), 5589, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2022" data-text="nanosheets based approach to elevate the proliferative and differentiation efficacy of human wharton’s jelly mesenchymal stem cells singh, s.s., singh, a., kumar, v., et al. int. j. mol. sci., 23, 5816, 2022">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#37</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.9</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Nanosheets Based Approach to Elevate the Proliferative and Differentiation Efficacy of Human Wharton’s Jelly Mesenchymal Stem Cells</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, S.S., Singh, A., Kumar, V., et al.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Int. J. Mol. Sci., 23, 5816, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2022" data-text="development of rna-based assay for rapid detection of sars-cov-2 in clinical samples kumar, v., mishra, s., sharma, r., agarwal, j., ghosal, u., khanna, t., sharma, l. k., verma, s.k., tiwari, s. intervirology, 2022">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#36</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 2.25</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Development of RNA-based assay for rapid detection of SARS-CoV-2 in clinical samples</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Mishra, S., Sharma, R., Agarwal, J., Ghosal, U., Khanna, T., Sharma, L. K., Verma, S.K., Tiwari, S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Intervirology, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2021" data-text="dynamic surface layer coiled coil proteins processing analog-to-digital information glionna, c., kumar, v.*, le saux, g., pramanik, b., wagner, n., cohen, r. l., ashkenasy, g., ashkenasy, n. journal of the american chemical society, 143, 42, 17441–17451, 2021">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#35</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 15.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Dynamic Surface Layer Coiled Coil Proteins Processing Analog-to-Digital Information</h5>
+                            <p class="mb-2 text-dark"><strong>Glionna, C., Kumar, V.*, Le Saux, G., Pramanik, B., Wagner, N., Cohen, R. L., Ashkenasy, G., Ashkenasy, N.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of the American Chemical Society, 143, 42, 17441–17451, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2020" data-text="preparation and characterization of extracellular vesicles tiwari, s., kumar, v., randhawa, s., verma, s. american journal of reproductive immunology, 85, 1-52, 2020">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#34</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 3.88</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Preparation and characterization of Extracellular Vesicles</h5>
+                            <p class="mb-2 text-dark"><strong>Tiwari, S., Kumar, V., Randhawa, S., Verma, S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">American Journal of Reproductive Immunology, 85, 1-52, 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="2020" data-text="switchable graphene-based bioelectronics interfaces meenakshi, shukla, s.k., narang, j., kumar, v., govender, p.p., niv, a., hussain, c.m., wang, r., mangla, b., babu, r.s. chemosensors, 8, 45, 2020">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#33</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 3.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Switchable Graphene-Based Bioelectronics Interfaces</h5>
+                            <p class="mb-2 text-dark"><strong>Meenakshi, Shukla, S.K., Narang, J., Kumar, V., Govender, P.P., Niv, A., Hussain, C.M., Wang, R., Mangla, B., Babu, R.S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Chemosensors, 8, 45, 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="ecotoxic impact assessment of graphene oxide on lipid peroxidation at mitochondrial level and redox modulation in fresh water fish anabas testudineus paital, b., guru, b., mohapatra, p., panda, b., parida, n., rath, s., kumar, v.*, saxena, p.s., srivastava, a. chemosphere, 224, 796-804, 2019">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#32</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 8.8</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Ecotoxic impact assessment of Graphene Oxide on lipid peroxidation at mitochondrial level and redox modulation in fresh water fish Anabas testudineus</h5>
+                            <p class="mb-2 text-dark"><strong>Paital, B., Guru, B., Mohapatra, P., Panda, B., Parida, N., Rath, S., Kumar, V.*, Saxena, P.S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Chemosphere, 224, 796-804, 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="graphene oxide synergistically enhances antibiotic efficacy in vancomycin resistance staphylococcus aureus singh, v., kumar, v., kashyap, s., singh, a.v., kishore, v., sitti, m., saxena, p. s., srivastava, a. acs applied biomaterials, 2, 3, 1148-1157, 2019">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#31</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Graphene oxide synergistically enhances antibiotic efficacy in Vancomycin resistance Staphylococcus aureus</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, V., Kumar, V., Kashyap, S., Singh, A.V., Kishore, V., Sitti, M., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">ACS Applied Biomaterials, 2, 3, 1148-1157, 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="carbon nanostructures (0-3 dimensional) supported isolated gold nanoparticles as an effective sers substrate abraham, s., konig, m., srivastava, s., kumar, v., walkenfort, b., srivastava, a. sensors & actuators b, 273, 455-465, 2018">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#30</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 7.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Carbon nanostructures (0-3 Dimensional) supported isolated gold nanoparticles as an effective SERS substrate</h5>
+                            <p class="mb-2 text-dark"><strong>Abraham, S., Konig, M., Srivastava, S., Kumar, V., Walkenfort, B., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Sensors & Actuators B, 273, 455-465, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="plasmonic dna hotspots made from tungsten disulfide nanosheets and gold nanoparticles for ultrasensitive aptamer-based sers detection of myoglobin shorie, m., kumar, v.*, kaur, h., singh, k., tomar, v., sabherwal, p. microchimica acta, 185, 1-7, 2018">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#29</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.83</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Plasmonic DNA hotspots made from Tungsten disulfide nanosheets and gold nanoparticles for ultrasensitive aptamer-based SERS detection of Myoglobin</h5>
+                            <p class="mb-2 text-dark"><strong>Shorie, M., Kumar, V.*, Kaur, H., Singh, K., Tomar, V., Sabherwal, P.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Microchimica Acta, 185, 1-7, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="functionalized mos2 nanosheets assembled microfluidic immunosensor for highly sensitive detection of food pathogen singh, c., ali, m. a., kumar, v., ahmad, r., sumana, g. sensors & actuators b, 259, 1090-1098, 2018">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#28</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 7.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Functionalized MoS2 nanosheets assembled microfluidic immunosensor for highly sensitive detection of food pathogen</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, C., Ali, M. A., Kumar, V., Ahmad, R., Sumana, G.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Sensors & Actuators B, 259, 1090-1098, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="one step electro-oxidative preparation of graphene quantum dots from wood charcoal as a peroxidase mimetic nirala, n., kandelwal, g., kumar, b., vinita, kumar, v.* talanta, 173, 36-43, 2017">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#27</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 6.56</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">One step electro-oxidative preparation of graphene quantum dots from wood charcoal as a peroxidase mimetic</h5>
+                            <p class="mb-2 text-dark"><strong>Nirala, N., Kandelwal, G., Kumar, B., Vinita, Kumar, V.*</strong></p>
+                            <p class="m-0 text-muted fst-italic">Talanta, 173, 36-43, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="synergistic effect of graphene oxide coated nanotised apigenin with paclitaxel (go-na/ptx): a ros dependent mitochondrial mediated apoptosis in ovarian cancer pal, m. k., jaiswar, s. p., dwivedi, a., goyal, s., dwivedi, v., pathak, a. k., kumar, v., sankhwar, p.l., ray, r.s. anti-cancer agents in medicinal chemistry, 17, 1721-1732, 2017">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#26</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 2.5</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Synergistic Effect of Graphene Oxide Coated Nanotised Apigenin with Paclitaxel (GO-NA/PTX): A ROS Dependent Mitochondrial Mediated Apoptosis in Ovarian Cancer</h5>
+                            <p class="mb-2 text-dark"><strong>Pal, M. K., Jaiswar, S. P., Dwivedi, A., Goyal, S., Dwivedi, V., Pathak, A. K., Kumar, V., Sankhwar, P.L., Ray, R.S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Anti-Cancer Agents in Medicinal Chemistry, 17, 1721-1732, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="microwave reduced graphene oxide as efficient nir photothermal agent kashyap, s., kumar, v., abraham, s., umrao, s., singh, s., kamath, a., rajala, m.s., srivastava, a., saxena, p.s. austin j. biosens. & bioelectron., 3: id1026, 1-5, 2017">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#25</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Microwave Reduced Graphene Oxide as Efficient NIR Photothermal Agent</h5>
+                            <p class="mb-2 text-dark"><strong>Kashyap, S., Kumar, V., Abraham, S., Umrao, S., Singh, S., Kamath, A., Rajala, M.S., Srivastava, A., Saxena, P.S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Austin J. Biosens. & Bioelectron., 3: id1026, 1-5, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="sensitive and selective detection of copper ions using low cost nitrogen doped carbon quantum dots as a fluorescent sensing platform singh, v., kumar, v., yadav, u., srivastava, r. k., saxena, p. s. isss j. micro smart syst., 1, 1-8, 2017">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#24</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Sensitive and selective detection of copper ions using low cost nitrogen doped carbon quantum dots as a fluorescent sensing platform</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, V., Kumar, V., Yadav, U., Srivastava, R. K., Saxena, P. S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">ISSS J. Micro Smart Syst., 1, 1-8, 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="on the stability of surfactant-stabilised few-layer black phosphorus in aqueous media brent, j.r., ganguli, a. k., kumar, v., lewis, d., mcnaughter, p. d., o'brien, p., sabherwal, p., tedstone, a. a. rsc advances, 6, 86955-86958, 2016">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#23</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.02</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">On the stability of surfactant-stabilised few-layer black phosphorus in aqueous media</h5>
+                            <p class="mb-2 text-dark"><strong>Brent, J.R., Ganguli, A. K., Kumar, V., Lewis, D., McNaughter, P. D., O'Brien, P., Sabherwal, P., Tedstone, A. A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 6, 86955-86958, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="graphene based flexible and stretchable bioelectronics in health care systems kumar, v., kandelwal, g. journal of analytical and pharmaceutical research, 3, 1-3, 2016">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#22</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Graphene based Flexible and Stretchable Bioelectronics in Health Care Systems</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Kandelwal, G.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Analytical and Pharmaceutical Research, 3, 1-3, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="a nanostructured aptamer-functionalised black phosphorus sensing platform for label-free detection of myoglobin, a cardiovascular disease biomarker kumar, v., brent, j. r., shorie, s., kaur, h., chadha, g., thomas, a. g., lewis, e. a., et al. acs appl. mater. interfaces, 8, 22860−22868, 2016">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#21</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 8.2</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">A Nanostructured Aptamer-Functionalised Black Phosphorus Sensing Platform for Label-Free Detection of Myoglobin, a Cardiovascular Disease Biomarker</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Brent, J. R., Shorie, S., Kaur, H., Chadha, G., Thomas, A. G., Lewis, E. A., et al.</strong></p>
+                            <p class="m-0 text-muted fst-italic">ACS Appl. Mater. Interfaces, 8, 22860−22868, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="antibody conjugated metal nanoparticle decorated graphene sheets for a mycotoxin sensor srivastava, s., kumar, v., arora, k., singh, c., ali, m. a., puri, n. k., malhotra, b. d. rsc advances, 6, 56516-56526, 2016">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#20</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Antibody conjugated metal nanoparticle decorated graphene sheets for a mycotoxin sensor</h5>
+                            <p class="mb-2 text-dark"><strong>Srivastava, S., Kumar, V., Arora, K., Singh, C., Ali, M. A., Puri, N. K., Malhotra, B. D.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 6, 56516-56526, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="dipyrrin complex assisted in-situ synthesis of ultra-small gold nanoparticles decorated on partially reduced graphene oxide nanocomposite for efficient catalytic reduction of cr(vi) to cr(iii) gupta, r. k., kumar, v., srivastava, a., pandey, d. s. rsc advances, 6, 40911-40915, 2016">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#19</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Dipyrrin complex assisted in-situ synthesis of ultra-small gold nanoparticles decorated on partially reduced graphene oxide nanocomposite for efficient catalytic reduction of Cr(VI) to Cr(III)</h5>
+                            <p class="mb-2 text-dark"><strong>Gupta, R. K., Kumar, V., Srivastava, A., Pandey, D. S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 6, 40911-40915, 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="high-performance and high-sensitivity applications of graphene transistors with self-assembled monolayers yeh, c. h., kumar, v., wen, s. h., moyano, d. r., parashar, v., srivastava, a., saxena, p. s., huang, k. p., chang, c. c., chiu, p. w. biosensors & bioelectronics, 77, 1008-1015, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#18</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 10.5</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">High-performance and high-sensitivity applications of graphene transistors with self-assembled monolayers</h5>
+                            <p class="mb-2 text-dark"><strong>Yeh, C. H., Kumar, V., Wen, S. H., Moyano, D. R., Parashar, V., Srivastava, A., Saxena, P. S., Huang, K. P., Chang, C. C., Chiu, P. W.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Biosensors & Bioelectronics, 77, 1008-1015, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="graphene-cnt nanohybrid aptasensor for label free detection of cardiac biomarker myoglobin kumar, v., shorie, m., sabherwal, p., ganguli, a. biosensors & bioelectronics, 72, 56-60, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#17</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 10.5</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Graphene-CNT nanohybrid aptasensor for label free detection of cardiac biomarker myoglobin</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Shorie, M., Sabherwal, P., Ganguli, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Biosensors & Bioelectronics, 72, 56-60, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="enhanced electrochemical biosensing efficiency of silica particles supported partially reduced graphene oxide for sensitive detection of cholesterol abraham, s., srivastava, s., kumar, v., pandey, s., srivastava, s., singh, v.n., shukla, p. k., saxena, p.s., srivastava, a. journal of electroanalytical chemistry, 757, 65-72, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#16</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Enhanced electrochemical biosensing efficiency of silica particles supported partially reduced graphene oxide for sensitive detection of cholesterol</h5>
+                            <p class="mb-2 text-dark"><strong>Abraham, S., Srivastava, S., Kumar, V., Pandey, S., Srivastava, S., Singh, V.N., Shukla, P. K., Saxena, P.S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Electroanalytical Chemistry, 757, 65-72, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="colorimetric detection of cholesterol based on highly efficient peroxidase mimetic activity of graphene quantum dots nirala, n.r., abraham, s., kumar, v., bansal, a., srivastava, a., saxena, p. s. sensors & actuators b, 218, 42–50, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#15</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 7.7</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Colorimetric detection of cholesterol based on highly efficient peroxidase mimetic activity of Graphene Quantum Dots</h5>
+                            <p class="mb-2 text-dark"><strong>Nirala, N.R., Abraham, S., Kumar, V., Bansal, A., Srivastava, A., Saxena, P. S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Sensors & Actuators B, 218, 42–50, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="partially reduced graphene oxide–gold nanorods composite based bioelectrode of improved sensing performance nirala, n.r., abraham, s., kumar, v., srivastava, m., srivastava, s. k., kayastha, a. m., saxena, p. s., srivastava, a. talanta, 144, 745-754, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#14</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 6.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Partially reduced graphene oxide–gold nanorods composite based bioelectrode of improved sensing performance</h5>
+                            <p class="mb-2 text-dark"><strong>Nirala, N.R., Abraham, S., Kumar, V., Srivastava, M., Srivastava, S. K., Kayastha, A. M., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Talanta, 144, 745-754, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="carbon quantum dots-mediated direct fluorescence assay for the detection of cardiac marker myoglobin shorie, m., kumar, v., sabherwal, p., ganguli, a. current science, 108, 1595-1596, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#13</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 0.93</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Carbon quantum dots-mediated direct fluorescence assay for the detection of cardiac marker myoglobin</h5>
+                            <p class="mb-2 text-dark"><strong>Shorie, M., Kumar, V., Sabherwal, P., Ganguli, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Current Science, 108, 1595-1596, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="in-vitro cytotoxicity assessment of graphene quantum dots in caprine wharton’s jelly derived mesenchymal stem cells dar, r. m., gade, n.e., mishra, o.p., khan, j.r., kumar, v., patyal, a. journal of cell and tissue research, 15, 4703-4710, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#12</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">In-vitro cytotoxicity assessment of graphene quantum dots in Caprine Wharton’s Jelly derived mesenchymal stem cells</h5>
+                            <p class="mb-2 text-dark"><strong>Dar, R. M., Gade, N.E., Mishra, O.P., Khan, J.R., Kumar, V., Patyal, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Cell and Tissue Research, 15, 4703-4710, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="single molecule detection using nanopore technology kumar, v. editorial, research & reviews: journal of pharmaceutics and nanotechnology, 3, 1-2, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#11</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Single molecule detection using nanopore technology</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Editorial, Research & Reviews: Journal of Pharmaceutics and Nanotechnology, 3, 1-2, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="evaluation of dose dependent cytotoxic effects of graphene oxide-iron oxide nanocomposite on caprine wharton’s jelly derived mesenchymal stem cells gade, n.e., dar, r.m., mishra, o.p., khan, j.r., kumar, v., patyal, a. journal of animal research, 5, 415-421, 2015">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#10</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Evaluation of dose dependent cytotoxic effects of graphene oxide-iron oxide nanocomposite on Caprine Wharton’s Jelly derived mesenchymal stem cells</h5>
+                            <p class="mb-2 text-dark"><strong>Gade, N.E., Dar, R.M., Mishra, O.P., Khan, J.R., Kumar, V., Patyal, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Animal Research, 5, 415-421, 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="facile, rapid and upscaled synthesis of green luminescent functional graphene quantum dots for bioimaging kumar, v., singh, v., umrao, s., parashar, v., abraham, s., singh, a. k., nath, g., saxena, p. s., srivastava, a. rsc advances, 4, 21101-21107, 2014">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#9</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Facile, rapid and upscaled synthesis of green luminescent functional graphene quantum dots for bioimaging</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Singh, V., Umrao, S., Parashar, V., Abraham, S., Singh, A. K., Nath, G., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 4, 21101-21107, 2014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="nanostructured palladium-reduced graphene oxide platform for high sensitive, label free detection of a cancer biomarker kumar, v., srivastava, s., umrao, s., kumar, r., nath, g., sumana, g., saxena, p. s., srivastava, a. rsc advances, 4, 2267-2273, 2014">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#8</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Nanostructured palladium-reduced graphene oxide platform for high sensitive, label free detection of a cancer biomarker</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Srivastava, S., Umrao, S., Kumar, R., Nath, G., Sumana, G., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 4, 2267-2273, 2014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="cefuroxime axetil loaded solid lipid nanoparticles for enhanced activity against s. aureus biofilm singh, b., vuddanda, p. r., vijayakumar, m. r., kumar, v., saxena, p. s., singh, s. colloids and surfaces b: biointerfaces, 121, 92-98, 2014">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#7</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Cefuroxime axetil loaded Solid Lipid Nanoparticles for enhanced activity against S. aureus biofilm</h5>
+                            <p class="mb-2 text-dark"><strong>Singh, B., Vuddanda, P. R., Vijayakumar, M. R., Kumar, V., Saxena, P. S., Singh, S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Colloids and Surfaces B: Biointerfaces, 121, 92-98, 2014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="synthesis of benzimidazole - grafted graphene oxide/multi-walled carbon nanotubes composite for supercapacitance application srivastava, r. k., kumar, v., xingjue, w., srivastava, a. journal of alloys and compounds, 612, 343-348, 2014">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#6</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 6.3</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Synthesis of benzimidazole - grafted graphene oxide/multi-walled carbon nanotubes composite for supercapacitance application</h5>
+                            <p class="mb-2 text-dark"><strong>Srivastava, R. K., Kumar, V., Xingjue, W., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Alloys and Compounds, 612, 343-348, 2014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="biofunctional magnetic nanotube probe for recognition and separation of specific bacteria from a mixed culture kumar, v., nath, g., kotnala, r. k., saxena, p. s., srivastava, a. rsc advances, 3, 14634-14641, 2013">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#5</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 4.6</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Biofunctional magnetic nanotube probe for recognition and separation of specific bacteria from a mixed culture</h5>
+                            <p class="mb-2 text-dark"><strong>Kumar, V., Nath, G., Kotnala, R. K., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">RSC Advances, 3, 14634-14641, 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="electrophoretically deposited reduced graphene oxide platform for food toxin detection srivastava, s., kumar, v., ali, m. a., solanki, p. r., srivastava, a., sumana, g., saxena, p. s., joshi, a.g., malhotra, b. d. nanoscale, 5, 3043-3051, 2013">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#4</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 5.1</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Electrophoretically deposited reduced graphene oxide platform for food toxin detection</h5>
+                            <p class="mb-2 text-dark"><strong>Srivastava, S., Kumar, V., Ali, M. A., Solanki, P. R., Srivastava, A., Sumana, G., Saxena, P. S., Joshi, A.G., Malhotra, B. D.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Nanoscale, 5, 3043-3051, 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="study of mechanism of enhanced antibacterial activity by green synthesis of silver nanoparticles parashar, u. k., kumar, v., bera, t., saxena, p. s., nath, g., srivastava, s. k., giri, r., srivastava, a. nanotechnology, 22, 415104-415117, 2011">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#3</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: 2.8</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Study of mechanism of enhanced antibacterial activity by green synthesis of silver nanoparticles</h5>
+                            <p class="mb-2 text-dark"><strong>Parashar, U. K., Kumar, V., Bera, T., Saxena, P. S., Nath, G., Srivastava, S. K., Giri, R., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Nanotechnology, 22, 415104-415117, 2011</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="refinement of the optical properties by controlling the morphology of silver nanoparticles employing blended reducing agents parashar, u. k., kumar, v., saxena, p. s., srivastava, a. journal of optoelectronics and advanced materials, 11, 441-445, 2009">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#2</h5>
+                                
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Refinement of the optical properties by controlling the morphology of silver nanoparticles employing blended reducing agents</h5>
+                            <p class="mb-2 text-dark"><strong>Parashar, U. K., Kumar, V., Saxena, P. S., Srivastava, A.</strong></p>
+                            <p class="m-0 text-muted fst-italic">Journal of Optoelectronics and Advanced Materials, 11, 441-445, 2009</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pub-item" data-year="before-2020" data-text="gold nanoparticles supported on mos2 nanoribbons matrix as a biocompatible and water dispersible platform for enhanced photothermal ablation of cancerous cells using harmless near infrared irradiation pandey, s., kumar, v., bansal, a., mishra, h., kashyap, s., srivastava, a., saxena, p. s. arxiv.org > cond-mat > arxiv:1412.4943, 2014">
+                    <div class="card border-0 shadow-sm mb-3 pub-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="text-primary m-0 fw-bold">#1</h5>
+                                <span class="badge bg-success text-white px-3 py-2 ms-2">Impact Factor: Preprint / arXiv</span>
+                            </div>
+                            <h5 class="mb-3 lh-base text-dark">Gold Nanoparticles supported on MoS2 Nanoribbons matrix as a biocompatible and water dispersible platform for enhanced photothermal ablation of cancerous cells using harmless near infrared irradiation</h5>
+                            <p class="mb-2 text-dark"><strong>Pandey, S., Kumar, V., Bansal, A., Mishra, H., Kashyap, S., Srivastava, A., Saxena, P. S.</strong></p>
+                            <p class="m-0 text-muted fst-italic">arXiv.org > cond-mat > arXiv:1412.4943, 2014</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-4">
+
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#46</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 2.8</span>
+                        </div>
+                        <h4 class="mb-3">Next generation in vitro pulmonary platforms for Respiratory Disease Modelling and Therapeutic Development: Current Advances and future prospects</h4>
+                        <p class="mb-2 text-dark fw-bold">Khan, F., Kumar, V., Verma, V.</p>
+                        <p class="m-0 text-muted"><em>Medicina, (Just accepted), 2026</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#45</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 8.2</span>
+                        </div>
+                        <h4 class="mb-3">MXene-Reinforced 3D-Printed Biomatrices: Synthesis, Characterization, and Intelligent Theragenerative Applications</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Kumar, R., Patel, D., Rawat, S.K., Bosetti, P., Bhatnagar, D., Shukla, S.K., Sharma, G.T.</p>
+                        <p class="m-0 text-muted"><em>ACS Appl. Mater. Interfaces, 2026 (Accepted)</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#44</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.9</span>
+                        </div>
+                        <h4 class="mb-3">Sr-doped mesoporous silica nanoparticles with enhanced biological functions and 3D printing applications</h4>
+                        <p class="mb-2 text-dark fw-bold">Tripathi, B. B., Yadav, R., Aeri, A., Kumar, V., Sharma, G.T.</p>
+                        <p class="m-0 text-muted"><em>Journal of Drug Delivery Science and Technology, 116, 107932, 2026</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#43</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.1</span>
+                        </div>
+                        <h4 class="mb-3">Two-dimensional nano-fabricated g-C3N4@RGO based immunosensor for sensitive and label free detection of cancer biomarker</h4>
+                        <p class="mb-2 text-dark fw-bold">Srivastava, S., Kumar, A., Shukla, N., Bosetti, P., Kumar, V., Singh, V., Mishra, D.P., Chandel, V. S., Srivastava, S.</p>
+                        <p class="m-0 text-muted"><em>Microchemical Journal, 220, 116318, 2026</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#42</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.1</span>
+                        </div>
+                        <h4 class="mb-3">ZnO-RGO nanocomposite based electrochemical sensing platform for highly sensitive and selective detection of Cd2+ ions</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, A., Srivastava, S., Bosetti, P., Kumar, V., Tiwari, D. K., Mishra, D.P., Chandel, V. S., Srivastava, S.</p>
+                        <p class="m-0 text-muted"><em>Diamond and Related Materials, 159, 112873, 2025</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#41</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.1</span>
+                        </div>
+                        <h4 class="mb-3">Derivation and characterization of novel cytocompatible decellularized tissue scaffold for myoblast growth and differentiation</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, A., Singh, S.K., Kumar, V., Gupta, J., Kumar, M., Sarma, D.K., Singh, S., Kumawat, M., Verma, V.</p>
+                        <p class="m-0 text-muted"><em>Cells, 13, 41, 2024</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#40</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 6.7</span>
+                        </div>
+                        <h4 class="mb-3">Graphene-based materials for biotechnological and biomedical applications: Drug delivery, bioimaging and biosensing</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, R., Singh, D. P., Muñoz, R., Amami, M., Singh, R. K., Singh, S., Kumar, V.</p>
+                        <p class="m-0 text-muted"><em>Materials Today Chemistry, 33, 101750, 2023</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#39</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.05</span>
+                        </div>
+                        <h4 class="mb-3">Recent advances in bioengineered scaffold for in vitro meat production</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, A., Kumar, V., et al.</p>
+                        <p class="m-0 text-muted"><em>Cell & Tissue Research, 2022</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#38</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 3.84</span>
+                        </div>
+                        <h4 class="mb-3">Ti2C-TiO2 MXene nanocomposite based high efficient non-enzymatic glucose sensing platform for diabetes monitoring</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Shukla, S.K., Choudhury, M. et al.</p>
+                        <p class="m-0 text-muted"><em>Sensors, 22(15), 5589, 2022</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#37</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.9</span>
+                        </div>
+                        <h4 class="mb-3">Nanosheets Based Approach to Elevate the Proliferative and Differentiation Efficacy of Human Wharton’s Jelly Mesenchymal Stem Cells</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, S.S., Singh, A., Kumar, V., et al.</p>
+                        <p class="m-0 text-muted"><em>Int. J. Mol. Sci., 23, 5816, 2022</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#36</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 2.25</span>
+                        </div>
+                        <h4 class="mb-3">Development of RNA-based assay for rapid detection of SARS-CoV-2 in clinical samples</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Mishra, S., Sharma, R., Agarwal, J., Ghosal, U., Khanna, T., Sharma, L. K., Verma, S.K., Tiwari, S.</p>
+                        <p class="m-0 text-muted"><em>Intervirology, 2022</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#35</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 15.6</span>
+                        </div>
+                        <h4 class="mb-3">Dynamic Surface Layer Coiled Coil Proteins Processing Analog-to-Digital Information</h4>
+                        <p class="mb-2 text-dark fw-bold">Glionna, C., Kumar, V.*, Le Saux, G., Pramanik, B., Wagner, N., Cohen, R. L., Ashkenasy, G., Ashkenasy, N.</p>
+                        <p class="m-0 text-muted"><em>Journal of the American Chemical Society, 143, 42, 17441–17451, 2021</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#34</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 3.88</span>
+                        </div>
+                        <h4 class="mb-3">Preparation and characterization of Extracellular Vesicles</h4>
+                        <p class="mb-2 text-dark fw-bold">Tiwari, S., Kumar, V., Randhawa, S., Verma, S.</p>
+                        <p class="m-0 text-muted"><em>American Journal of Reproductive Immunology, 85, 1-52, 2020</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#33</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 3.7</span>
+                        </div>
+                        <h4 class="mb-3">Switchable Graphene-Based Bioelectronics Interfaces</h4>
+                        <p class="mb-2 text-dark fw-bold">Meenakshi, Shukla, S.K., Narang, J., Kumar, V., Govender, P.P., Niv, A., Hussain, C.M., Wang, R., Mangla, B., Babu, R.S.</p>
+                        <p class="m-0 text-muted"><em>Chemosensors, 8, 45, 2020</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#32</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 8.8</span>
+                        </div>
+                        <h4 class="mb-3">Ecotoxic impact assessment of Graphene Oxide on lipid peroxidation at mitochondrial level and redox modulation in fresh water fish Anabas testudineus</h4>
+                        <p class="mb-2 text-dark fw-bold">Paital, B., Guru, B., Mohapatra, P., Panda, B., Parida, N., Rath, S., Kumar, V.*, Saxena, P.S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Chemosphere, 224, 796-804, 2019</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#31</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.7</span>
+                        </div>
+                        <h4 class="mb-3">Graphene oxide synergistically enhances antibiotic efficacy in Vancomycin resistance Staphylococcus aureus</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, V., Kumar, V., Kashyap, S., Singh, A.V., Kishore, V., Sitti, M., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>ACS Applied Biomaterials, 2, 3, 1148-1157, 2019</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#30</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 7.7</span>
+                        </div>
+                        <h4 class="mb-3">Carbon nanostructures (0-3 Dimensional) supported isolated gold nanoparticles as an effective SERS substrate</h4>
+                        <p class="mb-2 text-dark fw-bold">Abraham, S., Konig, M., Srivastava, S., Kumar, V., Walkenfort, B., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Sensors & Actuators B, 273, 455-465, 2018</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#29</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.83</span>
+                        </div>
+                        <h4 class="mb-3">Plasmonic DNA hotspots made from Tungsten disulfide nanosheets and gold nanoparticles for ultrasensitive aptamer-based SERS detection of Myoglobin</h4>
+                        <p class="mb-2 text-dark fw-bold">Shorie, M., Kumar, V.*, Kaur, H., Singh, K., Tomar, V., Sabherwal, P.</p>
+                        <p class="m-0 text-muted"><em>Microchimica Acta, 185, 1-7, 2018</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#28</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 7.7</span>
+                        </div>
+                        <h4 class="mb-3">Functionalized MoS2 nanosheets assembled microfluidic immunosensor for highly sensitive detection of food pathogen</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, C., Ali, M. A., Kumar, V., Ahmad, R., Sumana, G.</p>
+                        <p class="m-0 text-muted"><em>Sensors & Actuators B, 259, 1090-1098, 2018</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#27</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 6.56</span>
+                        </div>
+                        <h4 class="mb-3">One step electro-oxidative preparation of graphene quantum dots from wood charcoal as a peroxidase mimetic</h4>
+                        <p class="mb-2 text-dark fw-bold">Nirala, N., Kandelwal, G., Kumar, B., Vinita, Kumar, V.*</p>
+                        <p class="m-0 text-muted"><em>Talanta, 173, 36-43, 2017</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#26</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 2.5</span>
+                        </div>
+                        <h4 class="mb-3">Synergistic Effect of Graphene Oxide Coated Nanotised Apigenin with Paclitaxel (GO-NA/PTX): A ROS Dependent Mitochondrial Mediated Apoptosis in Ovarian Cancer</h4>
+                        <p class="mb-2 text-dark fw-bold">Pal, M. K., Jaiswar, S. P., Dwivedi, A., Goyal, S., Dwivedi, V., Pathak, A. K., Kumar, V., Sankhwar, P.L., Ray, R.S.</p>
+                        <p class="m-0 text-muted"><em>Anti-Cancer Agents in Medicinal Chemistry, 17, 1721-1732, 2017</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#25</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Microwave Reduced Graphene Oxide as Efficient NIR Photothermal Agent</h4>
+                        <p class="mb-2 text-dark fw-bold">Kashyap, S., Kumar, V., Abraham, S., Umrao, S., Singh, S., Kamath, A., Rajala, M.S., Srivastava, A., Saxena, P.S.</p>
+                        <p class="m-0 text-muted"><em>Austin J. Biosens. & Bioelectron., 3: id1026, 1-5, 2017</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#24</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Sensitive and selective detection of copper ions using low cost nitrogen doped carbon quantum dots as a fluorescent sensing platform</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, V., Kumar, V., Yadav, U., Srivastava, R. K., Saxena, P. S.</p>
+                        <p class="m-0 text-muted"><em>ISSS J. Micro Smart Syst., 1, 1-8, 2017</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#23</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.02</span>
+                        </div>
+                        <h4 class="mb-3">On the stability of surfactant-stabilised few-layer black phosphorus in aqueous media</h4>
+                        <p class="mb-2 text-dark fw-bold">Brent, J.R., Ganguli, A. K., Kumar, V., Lewis, D., McNaughter, P. D., O'Brien, P., Sabherwal, P., Tedstone, A. A.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 6, 86955-86958, 2016</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#22</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Graphene based Flexible and Stretchable Bioelectronics in Health Care Systems</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Kandelwal, G.</p>
+                        <p class="m-0 text-muted"><em>Journal of Analytical and Pharmaceutical Research, 3, 1-3, 2016</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#21</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 8.2</span>
+                        </div>
+                        <h4 class="mb-3">A Nanostructured Aptamer-Functionalised Black Phosphorus Sensing Platform for Label-Free Detection of Myoglobin, a Cardiovascular Disease Biomarker</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Brent, J. R., Shorie, S., Kaur, H., Chadha, G., Thomas, A. G., Lewis, E. A., et al.</p>
+                        <p class="m-0 text-muted"><em>ACS Appl. Mater. Interfaces, 8, 22860−22868, 2016</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#20</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.6</span>
+                        </div>
+                        <h4 class="mb-3">Antibody conjugated metal nanoparticle decorated graphene sheets for a mycotoxin sensor</h4>
+                        <p class="mb-2 text-dark fw-bold">Srivastava, S., Kumar, V., Arora, K., Singh, C., Ali, M. A., Puri, N. K., Malhotra, B. D.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 6, 56516-56526, 2016</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#19</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.6</span>
+                        </div>
+                        <h4 class="mb-3">Dipyrrin complex assisted in-situ synthesis of ultra-small gold nanoparticles decorated on partially reduced graphene oxide nanocomposite for efficient catalytic reduction of Cr(VI) to Cr(III)</h4>
+                        <p class="mb-2 text-dark fw-bold">Gupta, R. K., Kumar, V., Srivastava, A., Pandey, D. S.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 6, 40911-40915, 2016</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#18</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 10.5</span>
+                        </div>
+                        <h4 class="mb-3">High-performance and high-sensitivity applications of graphene transistors with self-assembled monolayers</h4>
+                        <p class="mb-2 text-dark fw-bold">Yeh, C. H., Kumar, V., Wen, S. H., Moyano, D. R., Parashar, V., Srivastava, A., Saxena, P. S., Huang, K. P., Chang, C. C., Chiu, P. W.</p>
+                        <p class="m-0 text-muted"><em>Biosensors & Bioelectronics, 77, 1008-1015, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#17</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 10.5</span>
+                        </div>
+                        <h4 class="mb-3">Graphene-CNT nanohybrid aptasensor for label free detection of cardiac biomarker myoglobin</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Shorie, M., Sabherwal, P., Ganguli, A.</p>
+                        <p class="m-0 text-muted"><em>Biosensors & Bioelectronics, 72, 56-60, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#16</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.1</span>
+                        </div>
+                        <h4 class="mb-3">Enhanced electrochemical biosensing efficiency of silica particles supported partially reduced graphene oxide for sensitive detection of cholesterol</h4>
+                        <p class="mb-2 text-dark fw-bold">Abraham, S., Srivastava, S., Kumar, V., Pandey, S., Srivastava, S., Singh, V.N., Shukla, P. K., Saxena, P.S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Journal of Electroanalytical Chemistry, 757, 65-72, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#15</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 7.7</span>
+                        </div>
+                        <h4 class="mb-3">Colorimetric detection of cholesterol based on highly efficient peroxidase mimetic activity of Graphene Quantum Dots</h4>
+                        <p class="mb-2 text-dark fw-bold">Nirala, N.R., Abraham, S., Kumar, V., Bansal, A., Srivastava, A., Saxena, P. S.</p>
+                        <p class="m-0 text-muted"><em>Sensors & Actuators B, 218, 42–50, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#14</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 6.1</span>
+                        </div>
+                        <h4 class="mb-3">Partially reduced graphene oxide–gold nanorods composite based bioelectrode of improved sensing performance</h4>
+                        <p class="mb-2 text-dark fw-bold">Nirala, N.R., Abraham, S., Kumar, V., Srivastava, M., Srivastava, S. K., Kayastha, A. M., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Talanta, 144, 745-754, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#13</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 0.93</span>
+                        </div>
+                        <h4 class="mb-3">Carbon quantum dots-mediated direct fluorescence assay for the detection of cardiac marker myoglobin</h4>
+                        <p class="mb-2 text-dark fw-bold">Shorie, M., Kumar, V., Sabherwal, P., Ganguli, A.</p>
+                        <p class="m-0 text-muted"><em>Current Science, 108, 1595-1596, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#12</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">In-vitro cytotoxicity assessment of graphene quantum dots in Caprine Wharton’s Jelly derived mesenchymal stem cells</h4>
+                        <p class="mb-2 text-dark fw-bold">Dar, R. M., Gade, N.E., Mishra, O.P., Khan, J.R., Kumar, V., Patyal, A.</p>
+                        <p class="m-0 text-muted"><em>Journal of Cell and Tissue Research, 15, 4703-4710, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#11</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Single molecule detection using nanopore technology</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V.</p>
+                        <p class="m-0 text-muted"><em>Editorial, Research & Reviews: Journal of Pharmaceutics and Nanotechnology, 3, 1-2, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#10</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Evaluation of dose dependent cytotoxic effects of graphene oxide-iron oxide nanocomposite on Caprine Wharton’s Jelly derived mesenchymal stem cells</h4>
+                        <p class="mb-2 text-dark fw-bold">Gade, N.E., Dar, R.M., Mishra, O.P., Khan, J.R., Kumar, V., Patyal, A.</p>
+                        <p class="m-0 text-muted"><em>Journal of Animal Research, 5, 415-421, 2015</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#9</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.6</span>
+                        </div>
+                        <h4 class="mb-3">Facile, rapid and upscaled synthesis of green luminescent functional graphene quantum dots for bioimaging</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Singh, V., Umrao, S., Parashar, V., Abraham, S., Singh, A. K., Nath, G., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 4, 21101-21107, 2014</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#8</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.6</span>
+                        </div>
+                        <h4 class="mb-3">Nanostructured palladium-reduced graphene oxide platform for high sensitive, label free detection of a cancer biomarker</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Srivastava, S., Umrao, S., Kumar, R., Nath, G., Sumana, G., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 4, 2267-2273, 2014</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#7</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.6</span>
+                        </div>
+                        <h4 class="mb-3">Cefuroxime axetil loaded Solid Lipid Nanoparticles for enhanced activity against S. aureus biofilm</h4>
+                        <p class="mb-2 text-dark fw-bold">Singh, B., Vuddanda, P. R., Vijayakumar, M. R., Kumar, V., Saxena, P. S., Singh, S.</p>
+                        <p class="m-0 text-muted"><em>Colloids and Surfaces B: Biointerfaces, 121, 92-98, 2014</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#6</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 6.3</span>
+                        </div>
+                        <h4 class="mb-3">Synthesis of benzimidazole - grafted graphene oxide/multi-walled carbon nanotubes composite for supercapacitance application</h4>
+                        <p class="mb-2 text-dark fw-bold">Srivastava, R. K., Kumar, V., Xingjue, W., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Journal of Alloys and Compounds, 612, 343-348, 2014</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#5</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 4.6</span>
+                        </div>
+                        <h4 class="mb-3">Biofunctional magnetic nanotube probe for recognition and separation of specific bacteria from a mixed culture</h4>
+                        <p class="mb-2 text-dark fw-bold">Kumar, V., Nath, G., Kotnala, R. K., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>RSC Advances, 3, 14634-14641, 2013</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#4</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 5.1</span>
+                        </div>
+                        <h4 class="mb-3">Electrophoretically deposited reduced graphene oxide platform for food toxin detection</h4>
+                        <p class="mb-2 text-dark fw-bold">Srivastava, S., Kumar, V., Ali, M. A., Solanki, P. R., Srivastava, A., Sumana, G., Saxena, P. S., Joshi, A.G., Malhotra, B. D.</p>
+                        <p class="m-0 text-muted"><em>Nanoscale, 5, 3043-3051, 2013</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#3</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: 2.8</span>
+                        </div>
+                        <h4 class="mb-3">Study of mechanism of enhanced antibacterial activity by green synthesis of silver nanoparticles</h4>
+                        <p class="mb-2 text-dark fw-bold">Parashar, U. K., Kumar, V., Bera, T., Saxena, P. S., Nath, G., Srivastava, S. K., Giri, R., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Nanotechnology, 22, 415104-415117, 2011</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#2</h5>
+                            
+                        </div>
+                        <h4 class="mb-3">Refinement of the optical properties by controlling the morphology of silver nanoparticles employing blended reducing agents</h4>
+                        <p class="mb-2 text-dark fw-bold">Parashar, U. K., Kumar, V., Saxena, P. S., Srivastava, A.</p>
+                        <p class="m-0 text-muted"><em>Journal of Optoelectronics and Advanced Materials, 11, 441-445, 2009</em></p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="bg-light rounded p-4 mb-4 shadow-sm border-start border-5 border-primary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="text-primary m-0">#1</h5>
+                            <span class="badge bg-info text-dark">Impact Factor: Preprint / arXiv</span>
+                        </div>
+                        <h4 class="mb-3">Gold Nanoparticles supported on MoS2 Nanoribbons matrix as a biocompatible and water dispersible platform for enhanced photothermal ablation of cancerous cells using harmless near infrared irradiation</h4>
+                        <p class="mb-2 text-dark fw-bold">Pandey, S., Kumar, V., Bansal, A., Mishra, H., Kashyap, S., Srivastava, A., Saxena, P. S.</p>
+                        <p class="m-0 text-muted"><em>arXiv.org > cond-mat > arXiv:1412.4943, 2014</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
