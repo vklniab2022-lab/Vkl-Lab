@@ -1,0 +1,9 @@
+name = "vkl-lab"
+type = "javascript"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[build]
+command = ""
+cwd = "./"
