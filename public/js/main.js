@@ -74,23 +74,5 @@
         loop: true,
     });
     
-    // Meeting carousel
-    $(".meeting-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 800,
-        margin: 25,
-        dots: true,
-        loop: true,
-        nav: true,
-        navText: [
-            '<span style="font-size:1.8rem; line-height:1; color:#2b569a;">&#8249;</span>',
-            '<span style="font-size:1.8rem; line-height:1; color:#2b569a;">&#8250;</span>'
-        ],
-        responsive: {
-            0: { items: 1 },
-            768: { items: 2 }
-        }
-    });
-    
 })(jQuery);
 
