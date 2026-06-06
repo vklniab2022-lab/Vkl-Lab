@@ -1,0 +1,27 @@
+Netlify deployment (static multi-page site)
+
+Your site is plain HTML + static assets (css/, js/, img/, lib/). Netlify can deploy it without any build step.
+
+A) Upload method (no GitHub)
+1) Create a Netlify account
+2) Netlify dashboard → Add new site → Deploy manually
+3) Create a ZIP such that these paths are at ZIP ROOT:
+   - index.html
+   - about.html, appointment.html, blog.html, contact.html, gallery.html, grants.html,
+     search.html, service.html, team.html, testimonial.html
+   - css/ (including css/bootstrap.min.css and css/style.css)
+   - js/ (including js/main.js)
+   - img/
+   - lib/ (including lib/owlcarousel/, lib/tempusdominus/, lib/easing/, lib/waypoints/)
+   - LICENSE.txt
+4) Upload ZIP → Deploy
+5) Use the live Netlify URL shown by Netlify.
+
+B) Important rule
+Because your HTML uses relative asset paths (css/style.css, js/main.js, img/..., lib/...):
+- The directory names and structure must match exactly at the site root.
+
+C) Expected outcome
+- All pages should open (index.html, about.html, etc.)
+- CSS/JS/images load correctly.
+

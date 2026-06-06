@@ -69,9 +69,14 @@
             transform: rotateY(180deg);
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             padding: 30px;
+            text-align: center;
+        }
+        .flip-card-back.text-start {
+            align-items: flex-start;
+            text-align: left;
         }
     </style>
 </head>
@@ -132,8 +137,8 @@
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Group</h5>
-                <h1 class="display-4">Our Research Group</h1>
-                <p>Meet the researchers and scientists driving innovations in organoid engineering, biomaterials, and bio-diagnostics at VKL Lab.</p>
+                <h1 class="display-4">Our P.hD Scholars</h1>
+                <!-- <p>Meet the researchers and scientists driving innovations in organoid engineering, biomaterials, and bio-diagnostics at VKL Lab.</p> -->
             </div>
             
             <div class="row g-4 justify-content-center">
@@ -143,11 +148,15 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="img/Sanjay Kumar Rawat.jpeg" alt="Sanjay">
+                                <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                    <h6 class="text-white m-0">Sanjay Kumar Rawat</h6>
+                                </div>
                             </div>
-                            <div class="flip-card-back border border-4 border-info">
+                            <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
                                 <h4 class="text-white mb-2">Sanjay Kumar Rawat</h4>
-                                <p class="text-info fw-bold mb-3">Senior Research Fellow (SRF)</p>
-                                <p class="small mb-0">Contributing to advanced nanomaterials, 3D bioprinting, and bio-interface analysis.</p>
+                                <p class="small mb-1 text-light"><i class="fas fa-user-graduate text-primary me-2"></i><strong>Position:</strong> Senior Research Fellow (SRF)</p>
+                                <hr class="my-2 bg-secondary">
+                                <p class="small mb-0 text-light"><strong>Research Focus:</strong> Contributing to advanced nanomaterials, 3D bioprinting, and bio-interface analysis.</p>
                             </div>
                         </div>
                     </div>
@@ -158,11 +167,15 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="img/B. Sai Prashitha.jpeg" alt="Prashitha">
+                                <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                    <h6 class="text-white m-0">Prashitha</h6>
+                                </div>
                             </div>
-                            <div class="flip-card-back border border-4 border-info">
+                            <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
                                 <h4 class="text-white mb-2">Prashitha</h4>
-                                <p class="text-info fw-bold mb-3">Junior Research Fellow (JRF)</p>
-                                <p class="small mb-0">Specializing in tissue modeling, imaging platforms, and cellular assays.</p>
+                                <p class="small mb-1 text-light"><i class="fas fa-user-graduate text-primary me-2"></i><strong>Position:</strong> Junior Research Fellow (JRF)</p>
+                                <hr class="my-2 bg-secondary">
+                                <p class="small mb-0 text-light"><strong>Research Focus:</strong> Specializing in tissue modeling, imaging platforms, and cellular assays.</p>
                             </div>
                         </div>
                     </div>
@@ -173,11 +186,15 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="img/Eyush Taneja.jpeg" alt="EYUSh">
+                                <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                    <h6 class="text-white m-0">EYUSh</h6>
+                                </div>
                             </div>
-                            <div class="flip-card-back border border-4 border-info">
+                            <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
                                 <h4 class="text-white mb-2">EYUSh</h4>
-                                <p class="text-info fw-bold mb-3">i3c BRIC RCB PhD Scholar</p>
-                                <p class="small mb-0">Exploring organoid-on-a-chip technologies and disease mechanisms.</p>
+                                <p class="small mb-1 text-light"><i class="fas fa-user-graduate text-primary me-2"></i><strong>Position:</strong> i3c BRIC RCB PhD Scholar</p>
+                                <hr class="my-2 bg-secondary">
+                                <p class="small mb-0 text-light"><strong>Research Focus:</strong> Exploring organoid-on-a-chip technologies and disease mechanisms.</p>
                             </div>
                         </div>
                     </div>
@@ -188,11 +205,15 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="img/Prasad Gandhi.jpeg" alt="Prasad">
+                                <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                    <h6 class="text-white m-0">Prasad Gandi</h6>
+                                </div>
                             </div>
-                            <div class="flip-card-back border border-4 border-info">
+                            <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
                                 <h4 class="text-white mb-2">Prasad Gandi</h4>
-                                <p class="text-info fw-bold mb-3">Junior Research Fellow (JRF)</p>
-                                <p class="small mb-0">Developing biopolymer matrices and studying cell adhesion properties.</p>
+                                <p class="small mb-1 text-light"><i class="fas fa-user-graduate text-primary me-2"></i><strong>Position:</strong> Junior Research Fellow (JRF)</p>
+                                <hr class="my-2 bg-secondary">
+                                <p class="small mb-0 text-light"><strong>Research Focus:</strong> Developing biopolymer matrices and studying cell adhesion properties.</p>
                             </div>
                         </div>
                     </div>
@@ -203,11 +224,15 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="img/Neha Yogi.jpeg" alt="Neha">
+                                <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                    <h6 class="text-white m-0">Neha Yogi</h6>
+                                </div>
                             </div>
-                            <div class="flip-card-back border border-4 border-info">
+                            <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
                                 <h4 class="text-white mb-2">Neha Yogi</h4>
-                                <p class="text-info fw-bold mb-3">i3c BRIC RCB PhD Scholar</p>
-                                <p class="small mb-0">Focusing on stem cell differentiation and multi-tissue integration.</p>
+                                <p class="small mb-1 text-light"><i class="fas fa-user-graduate text-primary me-2"></i><strong>Position:</strong> i3c BRIC RCB PhD Scholar</p>
+                                <hr class="my-2 bg-secondary">
+                                <p class="small mb-0 text-light"><strong>Research Focus:</strong> Focusing on stem cell differentiation and multi-tissue integration.</p>
                             </div>
                         </div>
                     </div>
@@ -217,62 +242,171 @@
             <!-- Dissertation Students Section -->
             <div class="mt-5 pt-5 border-top">
                 <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                    <h5 class="d-inline-block text-secondary text-uppercase border-bottom border-5">Academic Mentorship</h5>
+                    <!-- <h5 class="d-inline-block text-secondary text-uppercase border-bottom border-5">Academic Mentorship</h5> -->
                     <h2 class="display-6">Dissertation Students</h2>
                     <p class="text-muted">Students trained and mentored at VKL Lab for their research projects and dissertations.</p>
                 </div>
-                <div class="row g-4">
-                    <!-- Dissertation Student 1 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                            <div class="position-relative">
-                                <img src="img/user.jpg" class="card-img-top" style="height: 220px; object-fit: cover; object-position: top center;" alt="Dissertation Student">
-                                <div class="position-absolute top-0 end-0 m-2">
-                                    <span class="badge bg-warning text-dark">M.Sc. Dissertation</span>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">Student Name</h5>
-                                <p class="text-primary fw-bold small mb-2">M.Sc. Life Sciences</p>
-                                <p class="card-text text-muted small">"3D organoid-based disease modeling for therapeutic screening."</p>
+                <div class="row justify-content-center">
+                    
+                    <!-- Gouri Kumari -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card border-0 rounded-4 overflow-hidden h-100 position-relative shadow-sm" style="background: #111; min-height: 380px;">
+                            <img src="img/Gauri.jpeg" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; opacity: 0.8;" alt="Gauri Kumari">
+                            <div class="position-absolute bottom-0 start-0 w-100 p-4" style="background: linear-gradient(to top, rgba(0,0,0,0.95), transparent);">
+                                <div style="width: 40px; height: 3px; background-color: #00b050; margin-bottom: 8px;"></div>
+                                <h3 class="text-white fw-bold mb-1 mt-2">Gouri Kumari</h3>
+                                <p class="text-white fw-bold small mb-1">M.Sc. Dissertation (Jan 2026 – June 2026)</p>
+                                <p class="text-light small mb-0" style="opacity: 0.8;">Vinoba Bhave University, Jharkhand</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Dissertation Student 2 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                            <div class="position-relative">
-                                <img src="img/user.jpg" class="card-img-top" style="height: 220px; object-fit: cover; object-position: top center;" alt="Dissertation Student">
-                                <div class="position-absolute top-0 end-0 m-2">
-                                    <span class="badge bg-info text-dark">B.Tech Project</span>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">Student Name</h5>
-                                <p class="text-primary fw-bold small mb-2">B.Tech Biotechnology</p>
-                                <p class="card-text text-muted small">"Engineering nanomaterial scaffolds for stem cell differentiation."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Dissertation Student 3 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                            <div class="position-relative">
-                                <img src="img/user.jpg" class="card-img-top" style="height: 220px; object-fit: cover; object-position: top center;" alt="Dissertation Student">
-                                <div class="position-absolute top-0 end-0 m-2">
-                                    <span class="badge bg-success">Summer Intern</span>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title mb-1">Student Name</h5>
-                                <p class="text-primary fw-bold small mb-2">Summer Trainee</p>
-                                <p class="card-text text-muted small">"Microfluidic biosensor integration for real-time biomarker detection."</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <!-- Dissertation Students End -->
+
+            <!-- Alumni Section -->
+            <div class="mt-5 pt-5 border-top">
+                <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                    <h5 class="d-inline-block text-secondary text-uppercase border-bottom border-5">Past Members</h5>
+                    <h2 class="display-6">Alumni</h2>
+                    <p class="text-muted">Researchers and Dissertation students who have previously contributed to VKL Lab.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    
+                    <!-- Alumni 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/Prasant.jpeg" alt="Prashant Mishra">
+                                    <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                        <h6 class="text-white m-0">Prashant Mishra</h6>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Prashant Mishra</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> Jan 2023 – July 2023</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> M.Sc. in Biotechnology from Integral University, Lucknow</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> Ph.D. Scholar, ERA University, Lucknow</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Biotechnology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f8f9fa;">
+                                    <i class="fas fa-user-graduate fa-4x text-muted mb-3"></i>
+                                    <h3 class="text-dark m-0">Bharti Behera</h3>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Bharti Behera</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> Jan 2023 – July 2023</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> M.Sc in Biotechnology from Utkal University, Bhubaneswar</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> Details to be updated</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Inorganic material based strategies for breaking the cold chain requirements of Vaccines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/Shailza.jpeg" alt="Shailza Chaurasia">
+                                    <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                        <h6 class="text-white m-0">Shailja Chourasia</h6>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Shailja Chourasia</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> July 2023 – Dec 2023</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> M.Sc in Microbiology from Swami Vivekananda University, Kolkata</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> QHSE Officer at CIDP Bitech India, Delhi</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Decellularized Extracellular Matrix based Scaffold for Organoid Culture.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 4 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/Divya B.jpeg" alt="Divya Bhatnagar">
+                                    <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                        <h6 class="text-white m-0">Divya Bhatnagar</h6>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Divya Bhatnagar</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> Jan 2024 – July 2024</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> M.Sc. in Biotechnology</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> Working as a Research Officer at AIIMS Bhopal.</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Details to be updated</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 5 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/Sowmya swain.jpeg" alt="Soumya Ranjan Swain">
+                                    <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                        <h6 class="text-white m-0">Soumya Ranjan Swain</h6>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Soumya Ranjan Swain</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> Jan 2025 – June 2025</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> M.Sc in Biotechnology from Ravenshaw University, Cuttack</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> Young Professional (YP), ASCB at BRIC-NIAB Hyderabad</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Periphal nerve regeneration using meurotrophic nano-conjugate.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 6 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/Insiya.jpeg" alt="Insiya Tanwar">
+                                    <div class="position-absolute bottom-0 start-0 w-100 py-2" style="background: rgba(0, 0, 0, 0.7);">
+                                        <h6 class="text-white m-0">Insiya Tanwar</h6>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back border border-4 border-info text-start p-3 overflow-hidden" style="overflow-y: auto;">
+                                    <h5 class="text-white mb-2">Insiya Tanwar</h5>
+                                    <p class="small mb-1 text-light"><i class="far fa-calendar-alt text-primary me-2"></i><strong>Dissertation in BRIC-NIAB:</strong> June 2018 – May 2020</p>
+                                    <hr class="my-2 bg-secondary">
+                                    <p class="small mb-1 text-light"><strong>Education:</strong> B.Tech in Biotechnology, VIT</p>
+                                    <p class="small mb-1 text-light"><strong>Current Position:</strong> M.Tech from RWTH Aachen University, Germany</p>
+                                    <p class="small mb-0 text-light"><strong>Dissertation Project:</strong> Formulation of a 3D-printable hydrogel bioink for muscle tissue engineering. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Alumni End -->
 
         </div>
     </div>

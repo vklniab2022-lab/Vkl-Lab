@@ -1,0 +1,43 @@
+Cloudflare Pages deployment (static site)
+
+Your project is already a static multi-page site.
+To deploy with Cloudflare Pages via GitHub:
+
+1) Create/select a GitHub repository
+2) Ensure the repository root contains:
+   - index.html
+   - about.html
+   - service.html
+   - team.html
+   - contact.html
+   - blog.html
+   - gallery.html
+   - grants.html
+   - search.html
+   - testimonial.html
+   - css/ , js/ , img/ , lib/
+   - LICENSE.txt
+
+In other words: all these paths must be at repo root:
+   /index.html
+   /css/style.css
+   /js/main.js
+   /img/
+   /lib/
+
+3) Cloudflare dashboard → Pages → Create a project
+4) Connect GitHub to your repository
+5) Build settings (Static):
+   - Framework preset: None (or Static)
+   - Build command: leave empty
+   - Output directory: leave empty
+
+Cloudflare will deploy the repo root as the static site.
+
+6) After deployment:
+   - Use the provided URL (pages.dev)
+   - (Optional) configure custom domain later.
+
+Notes:
+- Your HTML references assets with relative paths (e.g., css/style.css, lib/..., img/...); keeping folder names identical is required.
+

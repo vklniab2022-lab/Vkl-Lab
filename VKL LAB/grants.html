@@ -28,6 +28,42 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .logo-slider-container {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            width: 100%;
+            padding: 30px 0;
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        .logo-slider-track {
+            display: inline-flex;
+            animation: scroll-logos 25s linear infinite;
+        }
+
+        .logo-slider-track:hover {
+            animation-play-state: paused;
+        }
+
+        .logo-slider-track img {
+            height: 80px;
+            margin: 0 40px;
+            object-fit: contain;
+            transition: all 0.3s ease;
+        }
+
+        .logo-slider-track img:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes scroll-logos {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+    </style>
 </head>
 
 <body>
@@ -184,14 +220,25 @@
             </div>
 
             <!-- Affiliations -->
-            <div class="text-center mx-auto mb-4 mt-5" style="max-width: 800px;">
-                <h3 class="display-6 mb-4">Our Sponsors & Affiliations</h3>
-                <div class="d-flex justify-content-center flex-wrap gap-3">
-                    <span class="btn btn-outline-primary m-1 px-4 py-2">BRIC NIAB</span>
-                    <span class="btn btn-outline-primary m-1 px-4 py-2">DBT</span>
-                    <span class="btn btn-outline-primary m-1 px-4 py-2">CSIR</span>
-                    <span class="btn btn-outline-primary m-1 px-4 py-2">UGC</span>
-                    <span class="btn btn-outline-primary m-1 px-4 py-2">RCB FARIDABAD</span>
+            <div class="text-center mx-auto mb-4 mt-5" style="max-width: 1000px;">
+                <h3 class="display-6 mb-4">Funding & Affiliations</h3>
+                <div class="logo-slider-container shadow-sm border">
+                    <div class="logo-slider-track">
+                        <!-- Original Logos -->
+                        <img src="img/BRIC NIAB LOGO.png" alt="BRIC NIAB">
+                        <img src="img/DBT LOGO.png" alt="DBT">
+                        <img src="img/CSIR-Logo.png" alt="CSIR">
+                        <img src="img/I3c Bric Logo.png" alt="I3c Bric">
+                        <img src="img/UGC LOGO.png" alt="UGC">
+                        <img src="img/RCB Faridabad logo.png" alt="RCB Faridabad">
+                        <!-- Duplicated Logos for seamless scrolling -->
+                        <img src="img/BRIC NIAB LOGO.png" alt="BRIC NIAB">
+                        <img src="img/DBT LOGO.png" alt="DBT">
+                        <img src="img/CSIR-Logo.png" alt="CSIR">
+                        <img src="img/I3c Bric Logo.png" alt="I3c Bric">
+                        <img src="img/UGC LOGO.png" alt="UGC">
+                        <img src="img/RCB Faridabad logo.png" alt="RCB Faridabad">
+                    </div>
                 </div>
             </div>
         </div>
